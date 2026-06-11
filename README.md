@@ -29,10 +29,10 @@ Make sure you have the following installed:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/stopwatch-timer-app.git
+git clone https://github.com/Bushra3895/Stopwatch-Timer-App.git
 
 # Navigate into the project
-cd stopwatch-timer-app
+cd stopwatch-timer
 
 # Install dependencies
 npm install
@@ -70,8 +70,8 @@ To deploy your own version:
 
 | Technology | Purpose |
 |------------|---------|
-| HTML5 | Structure |
-| CSS3 | Styling & Animations |
+| React.js | UI Framework |
+| CSS Modules | Styling & Animations |
 | JavaScript | Core Logic |
 | Vercel | Hosting & Deployment |
 
@@ -80,12 +80,27 @@ To deploy your own version:
 ## 📁 Project Structure
 
 ```
-stopwatch-timer-app/
-├── index.html        # Main HTML file
-├── style.css         # Styles
-├── script.js         # App logic
-├── README.md         # Project documentation
-└── package.json      # Project config (if applicable)
+stopwatch-timer/
+├── public/                   # Static assets
+├── src/                      # Source files
+│   ├── components/           # React components
+│   │   ├── Controls.js       # Start / Pause / Reset controls
+│   │   ├── CountdownInput.js # Timer countdown input
+│   │   ├── Stopwatch.js      # Stopwatch main component
+│   │   ├── TimeDisplay.js    # Time display component
+│   │   └── Timer.js          # Timer logic component
+│   ├── App.css               # Global app styles
+│   ├── App.js                # Root app component
+│   ├── App.test.js           # App tests
+│   ├── index.css             # Base styles
+│   ├── index.js              # App entry point
+│   ├── logo.svg              # App logo
+│   ├── reportWebVitals.js    # Performance reporting
+│   └── setupTests.js         # Test setup
+├── .gitignore                # Git ignored files
+├── package-lock.json         # Exact dependency tree
+├── package.json              # Project config & scripts
+└── README.md                 # Project documentation
 ```
 
 ---
@@ -110,4 +125,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🙋‍♂️ Author
 
-Made with Bushra Shabbir ❤️ — Feel free to reach out or star ⭐ the repo if you found it useful!
+Made with ❤️ by **Bushra Shabbir** — Feel free to reach out or star ⭐ the repo if you found it useful!
