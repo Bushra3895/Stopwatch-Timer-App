@@ -110,4 +110,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🙋‍♂️ Author
 
-Made with ❤️ — Feel free to reach out or star ⭐ the repo if you found it useful!
+Made with Bushra Shabbir ❤️ — Feel free to reach out or star ⭐ the repo if you found it useful!
