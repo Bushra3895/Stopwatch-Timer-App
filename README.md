@@ -15,7 +15,64 @@ A clean, responsive stopwatch and timer web application built for precision and 
 - ⚡ **Fast & Lightweight** — No dependencies, loads instantly
 
 ---
+## 🛠️ Tech Stack
 
+| Technology | Purpose |
+|------------|---------|
+| React.js | UI Framework |
+| CSS Modules | Styling & Animations |
+| JavaScript | Core Logic |
+| Vercel | Hosting & Deployment |
+
+---
+
+## 📁 Project Structure
+
+```
+stopwatch-timer/
+├── public/                   # Static assets
+├── src/                      # Source files
+│   ├── components/           # React components
+│   │   ├── Controls.js       # Start / Pause / Reset controls
+│   │   ├── CountdownInput.js # Timer countdown input
+│   │   ├── Stopwatch.js      # Stopwatch main component
+│   │   ├── TimeDisplay.js    # Time display component
+│   │   └── Timer.js          # Timer logic component
+│   ├── App.css               # Global app styles
+│   ├── App.js                # Root app component
+│   ├── App.test.js           # App tests
+│   ├── index.css             # Base styles
+│   ├── index.js              # App entry point
+│   ├── logo.svg              # App logo
+│   ├── reportWebVitals.js    # Performance reporting
+│   └── setupTests.js         # Test setup
+├── .gitignore                # Git ignored files
+├── package-lock.json         # Exact dependency tree
+├── package.json              # Project config & scripts
+└── README.md                 # Project documentation
+```
+
+---
+# 📸 Project Screenshots
+
+<p align="center">
+  <img src="screenshots/stopwatch.PNG" alt="Stopwatch" width="45%">
+  &nbsp;&nbsp;
+  <img src="screenshots/timer.PNG" alt="Timer" width="45%">
+</p>
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m "Add your feature"`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Open a Pull Request
+
+---
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -66,56 +123,6 @@ To deploy your own version:
 
 ---
 
-## 🛠️ Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| React.js | UI Framework |
-| CSS Modules | Styling & Animations |
-| JavaScript | Core Logic |
-| Vercel | Hosting & Deployment |
-
----
-
-## 📁 Project Structure
-
-```
-stopwatch-timer/
-├── public/                   # Static assets
-├── src/                      # Source files
-│   ├── components/           # React components
-│   │   ├── Controls.js       # Start / Pause / Reset controls
-│   │   ├── CountdownInput.js # Timer countdown input
-│   │   ├── Stopwatch.js      # Stopwatch main component
-│   │   ├── TimeDisplay.js    # Time display component
-│   │   └── Timer.js          # Timer logic component
-│   ├── App.css               # Global app styles
-│   ├── App.js                # Root app component
-│   ├── App.test.js           # App tests
-│   ├── index.css             # Base styles
-│   ├── index.js              # App entry point
-│   ├── logo.svg              # App logo
-│   ├── reportWebVitals.js    # Performance reporting
-│   └── setupTests.js         # Test setup
-├── .gitignore                # Git ignored files
-├── package-lock.json         # Exact dependency tree
-├── package.json              # Project config & scripts
-└── README.md                 # Project documentation
-```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m "Add your feature"`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Open a Pull Request
-
----
 
 ## 📄 License
 
