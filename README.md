@@ -56,9 +56,9 @@ stopwatch-timer/
 # 📸 Project Screenshots
 ```
 <p align="center">
-  <img src="screenshots/stopwatch.PNG" alt="Stopwatch" width="45%">
+  <img src="stopwatch.PNG" alt="Stopwatch" width="45%">
   &nbsp;&nbsp;
-  <img src="screenshots/timer.PNG" alt="Timer" width="45%">
+  <img src="timer.PNG" alt="Timer" width="45%">
 </p>
 ```
 ---
